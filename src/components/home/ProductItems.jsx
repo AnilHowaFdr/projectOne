@@ -6,9 +6,9 @@ const ProductItems = ({ data }) => {
       <div>
         <img src={data.img} alt="" />
       </div>
-      <div>
-        <h3>{data.title}</h3>
-        <h2>{data.price}</h2>
+      <div className="pt-4">
+        <h3 className="text-center">{data.title}</h3>
+        <h2 className="text-center">{data.price}</h2>
       </div>
     </div>
   );

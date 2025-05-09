@@ -6,9 +6,9 @@ import product4 from "../../assets/product4.jpg";
 const Footer = () => {
   return (
     <section className="text-blue dark:bg-gray-950 dark:text-white py-10 border-t">
-      <div className="container mx-auto px-4 font-semibold flex items-center justify-between">
-        <div>Footer</div>
-        <ul className="flex flex-col gap-3 text-xl font-medium uppercase">
+      <div className="container mx-auto px-4 font-semibold grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-14 sm:gap-5 items-center justify-between">
+        <div className="text-2xl">Flower</div>
+        <ul className="flex flex-col gap-3 text-base font-medium uppercase">
           <li>Home</li>
           <li>About</li>
           <li>Service</li>

@@ -4,7 +4,7 @@ import ProductItems from "./ProductItems";
 
 const Products = () => {
   return (
-    <div className="pt-32 pb-20 bg-white ">
+    <div className="pt-32 pb-20">
       <h2 className="text-3xl font-semibold tracking-widest pb-3 border-b-4 w-fit">
         Products
       </h2>
