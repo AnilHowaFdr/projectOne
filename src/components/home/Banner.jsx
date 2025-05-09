@@ -2,9 +2,20 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <section className="h-[800px] bg-red-200 dark:bg-gray-950 dark:text-white">
-      <div className="container mx-auto px-4">Banner</div>
-    </section>
+    <div className="py-20 flex items-center gap-10">
+      <div>
+        <h3 className="font-medium text-2xl text-black">Smart Products</h3>
+        <h1 className="pt-7 pb-12 text-6xl font-semibold tracking-wider">
+          Winter Offer 2025 Collection
+        </h1>
+        <button className="border text-lg font-medium uppercase py-4 px-9">
+          Shop Now
+        </button>
+      </div>
+      <div>
+        <img src="/banner1.png" alt="banner" />
+      </div>
+    </div>
   );
 };
 
