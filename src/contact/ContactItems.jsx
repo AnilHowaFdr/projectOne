@@ -10,7 +10,7 @@ const ContactItems = () => {
           Contact Us
         </h2>
       </div>
-      <div className="bg-white shadow-md p-8 dark:text-black">
+      <div className=" shadow-md p-8 dark:text-black">
         <div className="px-14 grid grid-cols-1 md:grid-cols-2 gap-5">
           <InputBox title="Your name" placeholder="Abc" />
           <InputBox
