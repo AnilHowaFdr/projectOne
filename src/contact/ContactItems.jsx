@@ -1,6 +1,7 @@
-import React from "react";
-import { FaPlay } from "react-icons/fa";
+import React, { useState } from "react";
 import InputBox from "./InputBox";
+import button1 from ".././assets/button1.png";
+import button3 from ".././assets/button3.png";
 
 const ContactItems = () => {
   return (
@@ -20,9 +21,18 @@ const ContactItems = () => {
           />
           <InputBox title="Address" placeholder="Where are you from?" />
           <InputBox title="Message" placeholder="Hi! i’d like to ask about" />
-          <button className="py-3 flex gap-3 items-center px-7 bg-border hover:bg-red-500 hover:text-white rounded-lg font-brand font-semibold cursor-pointer shadow-md text-base uppercase w-fit text-black">
-            <FaPlay />
-            <span>Submit</span>
+
+          <button className="py-3 flex gap-3 items-center px-7 rounded-lg font-brand font-semibold cursor-pointer shadow-lg text-base uppercase w-fit dark:bg-gray-900">
+            <img
+              src={button1}
+              alt="Light mode"
+              className="block w-10 dark:hidden"
+            />
+            <img
+              src={button3}
+              alt="Dark mode"
+              className="hidden w-10 dark:block"
+            />
           </button>
         </div>
       </div>
